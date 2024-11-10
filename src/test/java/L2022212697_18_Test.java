@@ -36,8 +36,8 @@ public class L2022212697_18_Test{
     public void testProductExceptSelf_case4() {
         Solution18 solution = new Solution18();
         int[] nums = {-2, 3, 4, -1};
-        int[] expected = {};
-//        int[] expected = {-12, 8, 6, -24};
+//        int[] expected = {};
+        int[] expected = {-12, 8, 6, -24};
         ArrayAsserts.assertArrayEquals(expected, solution.productExceptSelf(nums));
     }
 
